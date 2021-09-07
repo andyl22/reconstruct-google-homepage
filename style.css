@@ -200,6 +200,25 @@ input[type="search"]:focus {
         min-width: 78vw;
         min-height: 45px;
     }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .left-links {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .right-links {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .center-links {
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-height: 776px) and (min-height: 50px) {
