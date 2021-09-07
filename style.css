@@ -13,16 +13,17 @@ header {
 
 footer {
     display: flex;
-    font-size: 14px;
-    font-family: Roboto,arial,sans-serif;
-    background-color: whitesmoke;
-    justify-content: space-evenly;
     align-items: center;
     position:fixed;
     height: 50px;
     bottom: 0;
     left: 0;
-    width: 100%;
+    background-color: lightgray;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
 }
 
 .header-buttons-container {
@@ -49,18 +50,15 @@ footer {
     margin-right: 30px;
 }
 
-.apps-grid {
+#apps-grid {
+    height: 20px;
     max-height: 20%;
     margin: 5px 20px 0px 10px;
 }
 
-a {
-    color: gray;
-    text-decoration: none;
-}
-
-.account-icon {
-
+#account-icon {
+    border-radius: 30px;
+    height: 120px;
     max-height: 30%;
 }
 
@@ -112,19 +110,25 @@ a {
     padding-left: 40px;
 }
 
+.search-bar:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
 .query-button-container {
     display: flex;
 }
 
-.query-buttons {
-    box-shadow: none;
-    background-color: #f8f9fa;
+input[type="submit"] {
+        box-shadow: none;
+    background-color: whitesmoke;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     color: #3c4043;
     font-family: Roboto,arial,sans-serif;
     font-size: 14px;
-    margin: 11px 4px;
+    margin: 30px 4px;
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
@@ -134,22 +138,32 @@ a {
     user-select: none;
 }
 
-.left-bottom-links {
-    display: flex;
-    align-items: flex-start;
-}
-
-.right-bottom-links {
-    display: flex;
-    align-items: flex-end;
-}
-
 input[type="submit"]:hover {
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124;
 }
+
+.left-bottom-links {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 1;
+    background-color: lightpink;
+}
+
+#footer-note {
+    display: flex;
+    flex-shrink: 1;
+    background-color:lightgoldenrodyellow;
+}
+
+.right-bottom-links {
+    display: flex;
+    flex-grow: 2;
+    background-color: lightblue;
+}
+
 
 @media only screen and (max-width: 776px) {
     .search-container {
