@@ -30,41 +30,6 @@ a:hover {
     text-decoration: underline;
 }
 
-.left-links {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    margin: 0px 50px 0px 20px;
-    flex-wrap: wrap;
-}
-
-.right-links {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.center-links {
-    display: flex;
-    width: 100%;
-    min-width: 200px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.footer-links {
-    margin: 0px 15px 0px 15px;
-    color: rgb(83, 80, 80);
-}
-
-.footer-text {
-    color: rgb(107, 102, 102);
-}
-
-
 .header-buttons-container {
     display: flex;
     min-width: 100%;
@@ -187,6 +152,40 @@ input[type="submit"]:hover {
 input[type="search"]:focus {
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
     outline: none;
+}
+
+.left-links {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0px 50px 0px 20px;
+    flex-wrap: wrap;
+}
+
+.right-links {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.center-links {
+    display: flex;
+    width: 100%;
+    min-width: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    margin: 0px 15px 0px 15px;
+    color: rgb(83, 80, 80);
+}
+
+.footer-text {
+    color: rgb(107, 102, 102);
 }
 
 
