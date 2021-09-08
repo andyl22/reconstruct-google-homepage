@@ -181,7 +181,7 @@ input[type="search"]:focus {
 
 .footer-links {
     margin: 0px 15px 0px 15px;
-    color: rgb(83, 80, 80);
+    color: rgb(107, 102, 102);
 }
 
 .footer-text {
@@ -202,10 +202,16 @@ input[type="search"]:focus {
     }
 
     footer {
+        min-height: 100px;
         flex-direction: column;
     }
 
+    .center-links {
+        position: absolute;
+    }
+
     .left-links {
+        margin: 40px 0px 5px 0px;
         flex-direction: row;
         justify-content: center;
     }
@@ -215,10 +221,6 @@ input[type="search"]:focus {
         justify-content: center;
     }
     
-    .center-links {
-        flex-direction: row;
-        justify-content: center;
-    }
 }
 
 @media only screen and (max-height: 776px) and (min-height: 50px) {
