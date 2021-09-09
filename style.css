@@ -234,13 +234,13 @@ input[type="search"]::-webkit-search-cancel-button{
 
 @media only screen and (max-height: 776px) and (min-height: 50px) {
     .logo-container {
-        margin: 25vh 0% 20px 0%;
+        margin: 33vh 0% 20px 0%;
     }
 }
 
 
 @media only screen and (max-height: 500px) and (min-height: 50px) {
     .logo-container {
-        margin: 20vh 0% 20px 0%;
+        margin: 25vh 0% 20px 0%;
     }
 }
