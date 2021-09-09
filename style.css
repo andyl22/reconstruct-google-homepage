@@ -163,7 +163,6 @@ input[type="search"]::-webkit-search-cancel-button{
     display: flex;
     width: 100%;
     align-items: center;
-    margin: 0px 50px 0px 20px;
     flex-wrap: wrap;
 }
 
@@ -180,7 +179,6 @@ input[type="search"]::-webkit-search-cancel-button{
     width: 100%;
     min-width: 200px;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -207,16 +205,17 @@ input[type="search"]::-webkit-search-cancel-button{
     }
 
     footer {
-        min-height: 100px;
+        min-height: 10vh;
         flex-direction: column;
     }
 
     .center-links {
         position: absolute;
+        margin-top: 1%;
     }
 
     .left-links {
-        margin: 40px 0px 5px 0px;
+        margin: 5% 0px 0.5% 0px;
         flex-direction: row;
         justify-content: center;
     }
@@ -224,6 +223,10 @@ input[type="search"]::-webkit-search-cancel-button{
     .right-links {
         flex-direction: row;
         justify-content: center;
+    }
+
+    .top-right-links {
+        margin-right: 3%;
     }
     
 }
