@@ -52,14 +52,12 @@ a:hover {
 
 #apps-grid {
     height: 20px;
-    max-height: 20%;
     margin: 5px 20px 0px 10px;
 }
 
 #account-icon {
     border-radius: 30px;
-    height: 120px;
-    max-height: 30%;
+    height: 30px;
 }
 
 .header-buttons {
@@ -74,11 +72,6 @@ a:hover {
     display: flex;
     margin: 0% auto;
     justify-content: center;
-}
-
-.center-buttons {
-    display: inline-block;
-    margin: auto;
 }
 
 .logo-container {
@@ -122,6 +115,7 @@ a:hover {
 .query-button-container {
     display: flex;
 	flex-wrap: nowrap;
+    margin-top: 30px;
 }
 
 input[type="image"]:hover {
@@ -134,15 +128,13 @@ input[type="submit"] {
     box-shadow: none;
     background-color: rgb(245, 245, 248);
     border: 1px solid #f8f9fa;
-    border-radius: 4px;
     color: #3c4043;
     font-family: Roboto,arial,sans-serif;
     font-size: 14px;
-    margin: 30px 4px;
     padding: 0 16px;
-    line-height: 27px;
     height: 36px;
     min-width: 54px;
+    margin-right: 8px;
     cursor: pointer;
 }
 
@@ -159,9 +151,14 @@ input[type="search"]:focus {
 }
 
 input[type="search"]::-webkit-search-cancel-button{
-    position:relative;
-    left:10px;
+    -webkit-appearance: none;
     padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    height: 22px;
+    background: url(resources/clear.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .left-links {
